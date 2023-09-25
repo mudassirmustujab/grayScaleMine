@@ -5,11 +5,15 @@
     font-family: 'Montserrat', sans-serif;
 }
 nav .navbar-brand{
-    font-size: 2vw!important;
+    font-size: 1.5rem!important;
+}
+
+body{
+    overflow-x: hidden!important;
 }
 
 .sec1{
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     background-image: url(img/bg-masthead.jpg);
     background-size: 100% 100% ;
@@ -20,41 +24,305 @@ nav .navbar-brand{
 }
 
 .sec1 h1{
-    font-family: 'Varela Round', sans-serif;
-    font-size: 8vw!important;
+    font-family: 'Varela Round', sans-serif!important;
     opacity: 60%;
     letter-spacing: 6px;
+    font-size: 2.3rem;
 }
 
 .sec1 p{
-    font-size: 1.5vw!important;
+    font-size: 2vw!important;
 }
 .sec1 a{
     background-color: #629e9c;
     height: auto;
     width: auto!important;
     margin-top: 4%!important;
-    font-size: 2vw!important;
+    font-size: 1rem!important;
     border-radius: 2px;
 }
 
-.sec1 .gradient-container{
+.sec2{
+    height:auto;
+    background: linear-gradient(black,rgb(95, 95, 95));
+    color: white;
+}
+
+.sec2 h1{
+    width: auto;
+    font-size: 1.5rem!important;
+}
+
+.sec2 h3{
+    font-size: 0.7rem!important;
+    width: 90%;
+}
+
+.sec2 img{
+    height: 50%;
+    width: 80%;
+}
+
+
+
+.sec3 .col-12 h1{
+    
+    font-size: 5vh!important;
+}
+
+/* Section 4 starts here */
+.sec4{
     height: auto;
-    background: linear-gradient(black,rgb(99, 98, 98));
+    /* margin-top:auto; */
+}
+.sec4 .col-12, .col-md-10, .col-lg-6{
+    height: 50vh;
+}
+.sec4 .bgBlackImg{
+    background-color: black;
+    color: whitesmoke;
 }
 
-.sec1 .gradient-container h1{
-    font-family: 'Varela Round', sans-serif;
-    font-size: 7vh;
+.sec4 .bgImg1{
+    background-image: url("img/demo-image-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.sec1 .gradient-container p{
-    display: block;
-    width: 70%;
-    margin: auto;
+.sec4 .bgImg2{
+    background-image: url("img/demo-image-02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.sec1 .gradient-container img{
-    height: 40vh;
-    width: 70vw;
+.sec5{
+    width: auto;
+    height: 110vh;
+    background-image: url("img/bg-signup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec5 .container-lg{
+    
+    background-image: linear-gradient(180deg, black);
+}
+
+.sec6{
+    height: auto!important;
+    background-color: black;
+    padding: 22vh 0vh;
+    padding-bottom: 2rem;
+}
+
+.sec6 .card-body{
+    border-bottom: 0.25rem solid #64a19d!important;
+    
+}
+
+footer{
+    background-color: black;
+}
+
+@media screen  and (min-width:0px) and (max-width:300px) {
+
+    .sec1{
+        height: 100vh;
+        width: 100vw;
+        background-image: url(img/bg-masthead.jpg);
+        background-size: 100% 100% ;
+        background-color: gray;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        color: whitesmoke;
+    }
+    
+    .sec1 h1{
+        font-family: 'Varela Round', sans-serif!important;
+        opacity: 60%;
+        letter-spacing: 6px;
+        font-size: 2rem;
+    }
+    
+    .sec1 p{
+        font-size: 2vw!important;
+    }
+    .sec1 a{
+        background-color: #629e9c;
+        height: auto;
+        width: auto!important;
+        margin-top: 4%!important;
+        font-size: 2vw!important;
+        border-radius: 2px;
+    }
+}
+
+@media screen  and (min-width:300px) and (max-width:350px) {
+
+    .sec1{
+        height: 100vh;
+        width: 100vw;
+        background-image: url(img/bg-masthead.jpg);
+        background-size: 100% 100% ;
+        background-color: gray;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        color: whitesmoke;
+    }
+    
+    .sec1 h1{
+        font-family: 'Varela Round', sans-serif!important;
+        opacity: 60%;
+        letter-spacing: 6px;
+        font-size: 2.3rem;
+    }
+    
+    .sec1 p{
+        font-size: 0.9rem!important;
+    }
+    .sec1 a{
+        background-color: #629e9c;
+        height: auto;
+        width: auto!important;
+        margin-top: 4%!important;
+        font-size: 2vw!important;
+        border-radius: 2px;
+    }
+    
+}
+
+@media screen  and (min-width:350px) and (max-width:556px) {
+    
+    .sec1{
+        height: 100vh;
+        width: 100vw;
+        background-image: url(img/bg-masthead.jpg);
+        background-size: 100% 100% ;
+        background-color: gray;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        color: whitesmoke;
+    }
+    
+    .sec1 h1{
+        font-family: 'Varela Round', sans-serif!important;
+        opacity: 60%;
+        letter-spacing: 6px;
+        font-size: 3rem;
+    }
+    
+    .sec1 p{
+        font-size: 2vw!important;
+    }
+    .sec1 a{
+        background-color: #629e9c;
+        height: auto;
+        width: auto!important;
+        margin-top: 4%!important;
+        font-size: 1.5rem!important;
+        border-radius: 2px;
+    }
+    
+}
+@media screen  and (min-width:566px) and (max-width:768px) {
+
+    .sec1{
+        height: 100vh;
+        width: 100vw;
+        background-image: url(img/bg-masthead.jpg);
+        background-size: 100% 100% ;
+        background-color: gray;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        color: whitesmoke;
+    }
+    
+    .sec1 h1{
+        font-family: 'Varela Round', sans-serif!important;
+        opacity: 60%;
+        letter-spacing: 6px;
+        font-size: 4rem;
+    }
+    
+    .sec1 p{
+        font-size: 2vw!important;
+    }
+    .sec1 a{
+        background-color: #629e9c;
+        height: auto;
+        width: auto!important;
+        margin-top: 4%!important;
+        font-size: 2vw!important;
+        border-radius: 2px;
+    }
+}
+
+@media screen  and (min-width:768px) and (max-width:922px) {
+
+    .sec1{
+        height: 100vh;
+        width: 100vw;
+        background-image: url(img/bg-masthead.jpg);
+        background-size: 100% 100% ;
+        background-color: gray;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        color: whitesmoke;
+    }
+    
+    .sec1 h1{
+        font-family: 'Varela Round', sans-serif!important;
+        opacity: 60%;
+        letter-spacing: 6px;
+        font-size: 5rem;
+    }
+    
+    .sec1 p{
+        font-size: 2vw!important;
+    }
+    .sec1 a{
+        background-color: #629e9c;
+        height: auto;
+        width: auto!important;
+        margin-top: 4%!important;
+        font-size: 1rem!important;
+        border-radius: 2px;
+    }
+
+
+}
+
+@media screen  and (min-width:922px) and (max-width:2000px) {
+
+    .sec1{
+        height: 100vh;
+        width: 100vw;
+        background-image: url(img/bg-masthead.jpg);
+        background-size: 100% 100% ;
+        background-color: gray;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        color: whitesmoke;
+    }
+    
+    .sec1 h1{
+        font-family: 'Varela Round', sans-serif!important;
+        opacity: 60%;
+        letter-spacing: 6px;
+        font-size: 6rem;
+    }
+    
+    .sec1 p{
+        font-size: 2vw!important;
+    }
+    .sec1 a{
+        background-color: #629e9c;
+        height: auto;
+        width: auto!important;
+        margin-top: 4%!important;
+        font-size: 1rem!important;
+        border-radius: 2px;
+    }
+
+
 }
